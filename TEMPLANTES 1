@@ -1,0 +1,9 @@
+ do  balão  import  Flask , render_template
+app  =  Balão ( __name__ )
+
+@ app . rota ( '/' )
+def  index ():
+    retornar  render_template ( 'index.html' )
+
+se  __name__  ==  '__main__' :
+    app . run ()
